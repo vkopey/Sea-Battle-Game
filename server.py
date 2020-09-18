@@ -24,7 +24,7 @@ def shoot_get():
     for s in S: # для кожного корабля
         if S[s]==[x,y]: # якщо влючили
             print s," ship sunk!"
-            S[s]=[-1,-1] # потолений
+            S[s]=[-1,-1] # потоплений
     return name," shoot"
 
 
