@@ -22,7 +22,7 @@ def shoot_get():
     y = int(request.GET['y'])
     print name," shoot: ",x," ",y
     for s in S: # для кожного корабля
-        if S[s]==[x,y]: # якщо влючили
+        if S[s]==[x,y]: # якщо влучили
             print s," ship sunk!"
             S[s]=[-1,-1] # потоплений
     return name," shoot"
